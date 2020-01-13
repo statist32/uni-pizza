@@ -16,9 +16,11 @@ const styles = {
   footer: {
     display: "flex",
     justifyContent: "space-between",
-    width: "80%",
-    margin: "auto",
+    width: "60%",
     color: "white",
+    margin: "7rem auto",
+    lineHeight: "2.5rem",
+    fontSize: "1.5rem",
   },
 }
 
@@ -39,8 +41,14 @@ const Layout = ({ children }) => {
       <div style={{}}>
         <main>{children}</main>
         <footer style={styles.footer}>
-          <div>Telefon: 05251-7778818 </div>
-          <div>Stephanusstr. 48 33098 Paderborn</div>
+          <div>
+            <div>Telefon: 05251-7778818 </div>
+            <div>Email: uni-pizza@gmail.com </div>
+          </div>
+          <div>
+            Stephanusstr. 48 <br />
+            33098 Paderborn
+          </div>
         </footer>
       </div>
     </>
