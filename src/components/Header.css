@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  font-size: 1.5rem;
+  z-index: 2;
+  background-image: linear-gradient(
+    180deg,
+    rgba(20, 20, 20, 0.8) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+header > div {
+  margin: 1.5rem 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > div > div {
+  flex: 2;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  flex: 3;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+.header-logo {
+  height: 3rem;
+  width: 3rem;
+}

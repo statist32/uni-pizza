@@ -5,24 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
+import React, { Fragment } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./Header"
 import "./layout.css"
-
-const styles = {
-  footer: {
-    display: "flex",
-    justifyContent: "space-between",
-    width: "60%",
-    color: "white",
-    margin: "7rem auto",
-    lineHeight: "2.5rem",
-    fontSize: "1.5rem",
-  },
-}
+import OpeningTime from "./OpeningTime"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -36,22 +25,33 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <Fragment>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div style={{}}>
+      <div>
         <main>{children}</main>
-        <footer style={styles.footer}>
+        <footer>
           <div>
-            <div>Telefon: 05251-7778818 </div>
-            <div>Email: uni-pizza@gmail.com </div>
+            <h2>Kontaktdaten</h2>
+            <div className="footer-entry footer-contact-wrapper">
+              <div>Telefon:</div>
+              <div>05251-7778818</div>
+            </div>
+            <div className="footer-entry footer-contact-wrapper">
+              <div>Email:</div>
+              <div>uni-pizza@gmail.com</div>
+            </div>
           </div>
           <div>
-            Stephanusstr. 48 <br />
-            33098 Paderborn
+            <h2>Adresse</h2>
+            <div className="footer-entry">Stephanusstr. 48</div>
+            <div className="footer-entry">33098 Paderborn</div>
+          </div>
+          <div>
+            <OpeningTime />
           </div>
         </footer>
       </div>
-    </>
+    </Fragment>
   )
 }
 

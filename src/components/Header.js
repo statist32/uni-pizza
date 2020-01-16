@@ -1,43 +1,24 @@
 import { Link } from "gatsby"
 import React from "react"
-
-const styles = {
-  header: {
-    display: "flex",
-    justifyContent: "center",
-    width: "100%",
-    position: "fixed",
-    fontSize: "1.5rem",
-    zIndex: 2,
-    backgroundImage:
-      "linear-gradient(180deg, rgba(20,20,20,0.8) 80%, rgba(0,0,0,0) 100%)",
-  },
-  link: {
-    textDecoration: "none",
-    marginRight: "4rem",
-    color: "white",
-  },
-  "inner-header": {
-    margin: "1.5rem 0",
-    width: "80%",
-    display: "flex",
-    justifyContent: "space-between",
-  },
-}
+import "./Header.css"
+import logo from "../images/Pizza.png"
 
 export default function header() {
   return (
-    <header style={styles.header}>
-      <div style={styles["inner-header"]}>
-        <div>Uni Pizza</div>
+    <header>
+      <div>
+        <div>
+          <img src={logo} className="header-logo" />
+          <div>Uni Pizza</div>
+        </div>
         <nav>
-          <Link style={styles.link} to="/">
+          <Link className="link" to="/">
             Home
           </Link>
-          <Link style={styles.link} to="/bestellen">
+          <Link className="link" to="/bestellen">
             Bestellen
           </Link>
-          <Link style={styles.link} to="/impressum">
+          <Link className="link" to="/impressum">
             Impressum
           </Link>
         </nav>
