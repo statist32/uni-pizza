@@ -1,6 +1,6 @@
-/* .welcome-text-wrapper {
-  margin: auto;
-} */
+.welcome-text-wrapper {
+  margin-bottom: 4rem;
+}
 
 .welcome-text-wrapper > h2 {
   text-align: center;
