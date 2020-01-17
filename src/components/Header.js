@@ -17,7 +17,7 @@ export default function Header() {
           <div>Uni Pizza</div>
         </div>
 
-        <nav>
+        <nav style={extended ? { display: "block" } : {}}>
           <Link className="link" to="/">
             Home
           </Link>

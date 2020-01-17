@@ -56,7 +56,7 @@ nav {
     top: 10px;
   }
   header {
-    max-height: 16vh;
+    max-height: 6rem;
     overflow: hidden;
     background-image: linear-gradient(
       180deg,
@@ -78,6 +78,7 @@ nav {
   }
   nav {
     flex-flow: column nowrap;
+    display: none;
   }
   .link {
     margin-bottom: 2rem;
