@@ -56,7 +56,7 @@ nav {
     top: 10px;
   }
   header {
-    max-height: 6rem;
+    max-height: 16vh;
     overflow: hidden;
     background-image: linear-gradient(
       180deg,
