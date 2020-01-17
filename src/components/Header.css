@@ -10,7 +10,7 @@ header {
     rgba(20, 20, 20, 0.8) 95%,
     rgba(0, 0, 0, 0) 100%
   );
-  transition: max-height 2000ms ease;
+  transition: max-height 200ms ease;
   max-height: 6rem;
 }
 
@@ -47,17 +47,9 @@ nav {
   height: 3rem;
   width: 3rem;
 }
-.header-hamburger {
-  display: none;
-}
-
-.hamburger-active-header {
-  max-height: 20rem;
-  transition: max-height 2000ms ease;
-}
 
 @media (max-width: 740px) {
-  .header-hamburger {
+  .hamburger {
     display: block;
     position: absolute;
     right: 10px;
@@ -66,6 +58,11 @@ nav {
   header {
     max-height: 6rem;
     overflow: hidden;
+    background-image: linear-gradient(
+      180deg,
+      rgba(20, 20, 20, 0.95) 95%,
+      rgba(0, 0, 0, 0) 100%
+    );
   }
   header > div {
     /* margin: 2rem 0 5rem 0; */

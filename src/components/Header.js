@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React, { useState } from "react"
 import "./Header.css"
 import Logo from "./Logo"
+import Hamburger from "./Hamburger"
 
 export default function Header() {
   const [extended, setExtended] = useState(false)
@@ -27,15 +28,7 @@ export default function Header() {
             Impressum
           </Link>
         </nav>
-        <div
-          className="header-hamburger"
-          onClick={() => {
-            setExtended(!extended)
-            console.log(extended)
-          }}
-        >
-          X
-        </div>
+        <Hamburger extended={extended} setExtended={setExtended} />
       </div>
     </header>
   )
