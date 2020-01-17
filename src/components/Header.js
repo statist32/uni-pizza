@@ -1,17 +1,22 @@
 import { Link } from "gatsby"
-import React from "react"
+import React, { useState } from "react"
 import "./Header.css"
-import logo from "../images/Pizza.png"
+import Logo from "./Logo"
 
-export default function header() {
+export default function Header() {
+  const [extended, setExtended] = useState(false)
+
   return (
-    <header>
+    <header className={`${extended ? "hamburger-active-header" : ""}`}>
       <div>
         <div>
-          <img src={logo} className="header-logo" />
+          <div style={{ height: "50px", width: "50px" }}>
+            <Logo />
+          </div>
           <div>Uni Pizza</div>
         </div>
-        <nav>
+
+        <nav className={`${extended ? "hamburger-active-nav" : ""}`}>
           <Link className="link" to="/">
             Home
           </Link>
@@ -22,6 +27,15 @@ export default function header() {
             Impressum
           </Link>
         </nav>
+        <div
+          className="header-hamburger"
+          onClick={() => {
+            setExtended(!extended)
+            console.log(extended)
+          }}
+        >
+          X
+        </div>
       </div>
     </header>
   )
