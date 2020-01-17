@@ -7,7 +7,7 @@ const styles = {
   "images-wrapper": {
     display: "flex",
     flexFlow: "row wrap",
-    justifyContent: "space-evenly",
+    justifyContent: "space-around",
     width: "80%",
     margin: "auto",
   },
