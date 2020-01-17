@@ -51,9 +51,6 @@ nav {
   display: none;
 }
 
-.hamburger-active-nav {
-}
-
 .hamburger-active-header {
   max-height: 20rem;
   transition: max-height 2000ms ease;

@@ -16,7 +16,7 @@ export default function Header() {
           <div>Uni Pizza</div>
         </div>
 
-        <nav className={`${extended ? "hamburger-active-nav" : ""}`}>
+        <nav>
           <Link className="link" to="/">
             Home
           </Link>
