@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
@@ -7,7 +6,6 @@ import Hero from "../components/Hero"
 import Button from "../components/Button"
 import WelcomeText from "../components/WelcomeText"
 import Food from "../components/Food"
-import OpeningTime from "../components/OpeningTime"
 import Offers from "../components/Offers"
 
 import "./Index.css"
