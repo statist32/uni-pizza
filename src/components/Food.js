@@ -1,7 +1,7 @@
 import React from "react"
-import Salad from "./salad"
-import Pasta from "./pasta"
-import Pizza from "./pizza"
+import Salad from "./Salad"
+import Pasta from "./Pasta"
+import Pizza from "./Pizza"
 
 const styles = {
   "images-wrapper": {
