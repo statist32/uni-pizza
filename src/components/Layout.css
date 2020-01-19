@@ -42,6 +42,7 @@ footer > div {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  align-content: center;
 }
 
 .footer-entry {
@@ -51,6 +52,7 @@ footer > div {
 .footer-contact-wrapper {
   display: flex;
   flex-flow: row wrap;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 450px) {
