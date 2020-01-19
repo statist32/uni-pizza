@@ -21,7 +21,7 @@ const IndexPage = () => (
     <WelcomeText />
     <Food />
 
-    {/* <Offers /> */}
+    <Offers />
   </Layout>
 )
 

@@ -1,40 +1,42 @@
 import React from "react"
-
-const styles = {
-  dailyOffer: {},
-  day: {},
-  offer: {},
-  disclaimer: {},
-}
-
+import "./Offers.css"
 export default function Offers() {
   return (
-    <div>
-      <div style={styles.dailyOffer}>
-        <span style={styles.day}>Mittagsangebot 11 - 14 Uhr</span>
-        <span style={styles.offer}>
+    <div className="offer-wrapper">
+      <div className="offer-daily">
+        <span className="offer-day">
+          <span>Mittagsangebot</span> <br />
+          <span>11 - 14 Uhr</span>
+        </span>
+        <span className="offer-desc">
           Jede 28er Pizza und jedes Nudelgericht für nur 5,50€
         </span>
       </div>
-      <div style={styles.dailyOffer}>
-        <span style={styles.day}>Dienstag</span>
-        <span style={styles.offer}>Jede 28er Pizza 1€ günstiger</span>
+      <div className="offer-offers-wrapper">
+        <div className="offer-daily">
+          <span className="offer-day">Dienstag</span>
+          <span className="offer-desc">Jede 28er Pizza 1€ günstiger</span>
+        </div>
+        <div className="offer-daily">
+          <span className="offer-day">Mittwoch</span>
+          <span className="offer-desc">
+            Alle Schnitzelgerichte 1€ günstiger
+          </span>
+        </div>
+        <div className="offer-daily">
+          <span className="offer-day">Donnerstag</span>
+          <span className="offer-desc">
+            {" "}
+            Alle Salate und Döner 1€ günstiger
+          </span>
+        </div>
+        <div className="offer-daily">
+          <span className="offer-day">Freitag</span>
+          <span className="offer-desc">Jede 60er Pizza 3€ günstiger</span>
+        </div>
       </div>
-      <div style={styles.dailyOffer}>
-        <span style={styles.day}>Mittwoch</span>
-        <span style={styles.offer}>Alle Schnitzelgerichte 1€ günstiger</span>
-      </div>
-      <div style={styles.dailyOffer}>
-        <span style={styles.day}>Donnerstag</span>
-        <span style={styles.offer}> Alle Salate und Döner 1€ günstiger</span>
-      </div>
-      <div style={styles.dailyOffer}>
-        <span style={styles.day}>Freitag</span>
-        <span style={styles.offer}>Jede 60er Pizza 3€ günstiger</span>
-      </div>
-
-      <div style={styles.disclaimer}>
-        <span>Angabote gelten nicht an Feiertagen.</span>
+      <div className="offer-disclaimer">
+        <span>Angabote gelten nicht an Feiertagen.</span> <br />
         <span>Änderungen vorbehalten</span>
       </div>
     </div>
