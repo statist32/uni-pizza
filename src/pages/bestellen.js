@@ -5,9 +5,10 @@ import SEO from "../components/Seo"
 export default function Bestellen() {
   return (
     <Layout>
-      <SEO title="Bestellen">
-        <div>Lieferando Placeholder</div>
-      </SEO>
+      <Layout>
+        <SEO title="Bestellen" />
+        <div style={{ fontSize: "4rem" }}>Bestellen Placeholder</div>
+      </Layout>
     </Layout>
   )
 }
