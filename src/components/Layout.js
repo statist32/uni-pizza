@@ -33,11 +33,12 @@ const Layout = ({ children }) => {
           <div>
             <h2>Kontaktdaten</h2>
             <div className="footer-entry footer-contact-wrapper">
-              <div>Telefon:</div>
+              <div>Telefon:</div> {` `}
               <div>05251-7778818</div>
             </div>
             <div className="footer-entry footer-contact-wrapper">
               <div>Email:</div>
+              {` `}
               <div>uni-pizza@gmail.com</div>
             </div>
           </div>

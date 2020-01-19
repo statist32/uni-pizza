@@ -20,15 +20,12 @@ export default function Offers() {
         <div className="offer-daily">
           <span className="offer-day">Mittwoch</span>
           <span className="offer-desc">
-            Alle Schnitzelgerichte 1€ günstiger
+            Jedes Schnitzelgericht 1€ günstiger
           </span>
         </div>
         <div className="offer-daily">
           <span className="offer-day">Donnerstag</span>
-          <span className="offer-desc">
-            {" "}
-            Alle Salate und Döner 1€ günstiger
-          </span>
+          <span className="offer-desc">Jeder Salat und Döner 1€ günstiger</span>
         </div>
         <div className="offer-daily">
           <span className="offer-day">Freitag</span>
@@ -36,7 +33,8 @@ export default function Offers() {
         </div>
       </div>
       <div className="offer-disclaimer">
-        <span>Angabote gelten nicht an Feiertagen.</span> <br />
+        <span>Angebote gelten nicht an Feiertagen.</span>
+        <br />
         <span>Änderungen vorbehalten</span>
       </div>
     </div>
