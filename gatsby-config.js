@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Uni Pizza`,
     description: `Willkommen auf der Webseite der Uni Pizza. Hier finden Sie alle Informationen zu uns. Wir wünschen Ihnen einen guten Appetit und bis bald!`,
-    author: `@gstatist32`,
+    author: `@statist32`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,11 +21,13 @@ module.exports = {
         name: `Uni Pizza`,
         short_name: `Uni Pizza`,
         start_url: `/`,
-        icon: `src/images/Pizza_icon.png`, // This path is relative to the root of the site.
+        background_color: `#bf3737`,
+        theme_color: `#bf3737`,
+        display: `standalone`,
+        icon: `src/images/Pizza_icon.png`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+
+    `gatsby-plugin-offline`,
   ],
 }
