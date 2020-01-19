@@ -17,8 +17,10 @@ main {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #30333c;
-  color: white;
+  /* background-color: #30333c;
+  color: white; */
+  background-color: whitesmoke;
+  color: #30333c;
 }
 
 footer {
@@ -31,6 +33,9 @@ footer {
   padding-bottom: 2rem;
   font-size: 1.5rem;
   background-color: rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(28, 184, 6, 1); */
+  border-top: 5px solid rgba(28, 184, 6, 1);
+  /* color: whitesmoke; */
 }
 footer h2 {
   text-align: center;
