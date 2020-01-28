@@ -11,30 +11,31 @@ export default function Impressum() {
         <h1>Impressum</h1>
         <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
         <p>
-          Max Mustermann
+          Ahmad Ahmad
           <br />
-          Musterladen (Einzelunternehmer)
+          Pizzaria Restaurant
           <br />
-          Musterstra&szlig;e 111
+          Stephanusstra&szlig;e 48
           <br />
-          Geb&auml;ude 44
-          <br />
-          90210 Musterstadt
+          33098 Paderborn
         </p>
         <h2>Kontakt</h2>
         <p>
-          Telefon: +49 (0) 123 44 55 66
+          Telefon: 05251-7778818
           <br />
-          Telefax: +49 (0) 123 44 55 99
-          <br />
-          E-Mail: mustermann@musterfirma.de
+          E-Mail: unipizzapaderborn@gmail.com
         </p>
         <h2>Umsatzsteuer-ID</h2>
         <p>
           Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a
           Umsatzsteuergesetz:
           <br />
-          DE 999 999 999
+          Folgt
+        </p>
+        <h2>Gewerbeanmeldung</h2>
+        <p>
+          Die Gewerbeanmeldung nach &sect;15 GewO wurde am 25.11.2019 durch
+          Stadt Paderborn erteilt.
         </p>
         <h2>EU-Streitschlichtung</h2>
         <p>
