@@ -1,0 +1,22 @@
+.speisekarten-wrapper {
+  /* min-height: 20vh; */
+  /* transform: translateY(8rem); */
+  padding-top: 8rem;
+}
+
+.speisekarten-wrapper > div > h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+.speisekarte-items-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-bottom: 6rem;
+  height: 100%;
+}
+.speisekarte-item {
+  flex: 0 1 500px;
+  box-shadow: grey 5px 5px 5px;
+  margin-top: 1rem;
+}

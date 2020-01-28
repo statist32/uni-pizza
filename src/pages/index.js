@@ -16,7 +16,9 @@ const IndexPage = () => (
     <Hero />
     <div className="button-wrapper">
       <Button preText={"Hier klicken zum"} text={"Bestellen"} />
-      <Button preText={"Hier klicken zum"} text={"Anrufen"} />
+      <a href="tel:05251-7778818">
+        <Button preText={"Hier klicken zum"} text={"Anrufen"} />
+      </a>
     </div>
     <WelcomeText />
     <Food />

@@ -12,7 +12,7 @@ header {
   ); */
   background-image: linear-gradient(
     180deg,
-    #009933 95%,
+    #009933 99%,
     rgba(255, 255, 255, 0) 100%
   );
   transition: max-height 200ms ease;
@@ -25,6 +25,7 @@ header {
   text-decoration: none;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 header > div {

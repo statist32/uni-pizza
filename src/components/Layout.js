@@ -29,18 +29,33 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
-        <footer>
+        <footer id="footer">
           <div>
             <h2>Kontaktdaten</h2>
             <div className="footer-entry footer-contact-wrapper">
               <div>Telefon: {` `}</div>
 
-              <div>05251-7778818</div>
+              <a
+                href="tel:05251-7778818"
+                className="link"
+                style={{ color: "inherit" }}
+              >
+                05251-7778818
+              </a>
             </div>
             <div className="footer-entry footer-contact-wrapper">
               <div>Email: {` `}</div>
 
-              <div>uni-pizza@gmail.com</div>
+              <div>
+                <a
+                  href="mailto:uni-pizza@gmail.com"
+                  className="link"
+                  style={{ color: "inherit" }}
+                >
+                  {" "}
+                  uni-pizza@gmail.com
+                </a>
+              </div>
             </div>
           </div>
           <div>

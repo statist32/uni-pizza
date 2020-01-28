@@ -28,7 +28,7 @@ const BackgroundSection = ({ className }) => (
           fluid={imageData}
           // backgroundColor={`#040e18`}
         >
-          <section className="hero-wrapper">
+          <section className="hero-wrapper" id="hero">
             <div className="hero-overlay">
               <h1>
                 <div className="hero-welcome">Willkommen zu</div>

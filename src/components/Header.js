@@ -18,14 +18,14 @@ export default function Header() {
         </div>
 
         <nav style={extended ? { display: "block" } : {}}>
-          <Link className="link" to="/">
+          <Link className="link" to="/#hero">
             Home
           </Link>
-          <Link className="link" to="/bestellen">
-            Bestellen
+          <Link className="link" to="/speisekarte">
+            Speisekarte
           </Link>
-          <Link className="link" to="/impressum">
-            Impressum
+          <Link className="link" to="/#footer">
+            Kontakt
           </Link>
         </nav>
         <Hamburger extended={extended} setExtended={setExtended} />
