@@ -7,7 +7,7 @@
 
 import React, { Fragment } from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./Header"
 import "./Layout.css"
@@ -67,6 +67,14 @@ const Layout = ({ children }) => {
             <OpeningTime />
           </div>
         </footer>
+        <div className="footer-after">
+          <Link className="link" style={{ color: "inherit" }} to="/impressum">
+            Impressum
+          </Link>
+          <Link className="link" style={{ color: "inherit" }} to="/datenschutz">
+            Datenschutzerklärung
+          </Link>
+        </div>
       </div>
     </Fragment>
   )

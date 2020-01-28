@@ -61,6 +61,17 @@ footer > div {
   text-decoration: none;
 }
 
+.footer-after {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: baseline;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 @media screen and (max-width: 450px) {
   .footer-contact-wrapper {
     display: flex;
