@@ -15,7 +15,9 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Hero />
     <div className="button-wrapper">
-      <Button preText={"Hier klicken zum"} text={"Bestellen"} />
+      <a href="tel:05251-7778818">
+        <Button preText={"Hier klicken zum"} text={"Bestellen"} />
+      </a>
       <a href="tel:05251-7778818">
         <Button preText={"Hier klicken zum"} text={"Anrufen"} />
       </a>
