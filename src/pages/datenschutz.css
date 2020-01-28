@@ -1,6 +1,13 @@
 .datenschutz-wrapper {
   padding-top: 8rem;
   max-width: 800px;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  /* margin-left: 50%; */
+  /* transform: translateX(-50%); */
+}
+
+@media (max-width: 400px) {
+  .datenschutz-wrapper {
+    margin: 0 1rem;
+    transform: translateX(0%);
+  }
 }
