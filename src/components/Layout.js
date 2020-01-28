@@ -48,12 +48,12 @@ const Layout = ({ children }) => {
 
               <div>
                 <a
-                  href="mailto:uni-pizza@gmail.com"
+                  href="mailto:unipizzapaderborn@gmail.com"
                   className="link"
                   style={{ color: "inherit" }}
                 >
                   {" "}
-                  uni-pizza@gmail.com
+                  unipizzapaderborn@gmail.com
                 </a>
               </div>
             </div>
