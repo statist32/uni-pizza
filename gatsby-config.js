@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#bf3737`,
         theme_color: `#bf3737`,
         display: `standalone`,
-        icon: `src/images/Pizza_icon.png`,
+        icon: `src/images/uni-pizza_logo_ofen.png`,
       },
     },
 
