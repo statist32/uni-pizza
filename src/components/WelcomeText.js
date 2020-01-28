@@ -6,9 +6,9 @@ export default function WelcomeText() {
     <article className="welcome-text-wrapper">
       <h2>Wir liefern, was Sie suchen!</h2>
       <p>
-        Egal ob entspannt Zuhause, gemütlich vor Ort oder als Partyservice.
+        Egal ob entspannt zu Hause, gemütlich vor Ort oder als Partyservice.
         <br />
-        Wir erfüllen alle Ihre Wünsche.
+        Wir erfüllen jeglichen Wunsch.
       </p>
     </article>
   )
