@@ -1,0 +1,11 @@
+.impressum-wrapper {
+  padding-top: 8rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 850px) {
+  .impressum-wrapper {
+    margin: 0 2rem;
+  }
+}

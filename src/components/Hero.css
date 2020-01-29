@@ -1,0 +1,46 @@
+.hero-wrapper {
+  /* background-image: url("../images/lum3n-Ngy0B2YWalk-unsplash.jpg"); */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  background-attachment: fixed;
+}
+
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0) 40%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 5px 5px 4px black;
+  /* text-shadow: -1px 2px 1px hsl(0, 0%, 52%); */
+  color: whitesmoke;
+}
+
+.hero-welcome {
+  font-size: calc(1rem + 1vh + 1vw);
+}
+.hero-name {
+  font-size: calc(2rem + 3vh + 3vw);
+}
+.hero-desc {
+  font-size: calc(1rem + 1vh + 1vw);
+}
+
+@media (max-width: 550px) {
+  .hero-welcome,
+  .hero-name,
+  .hero-desc {
+    margin: 0 1rem;
+  }
+  .hero-welcome {
+    margin-top: 5rem;
+  }
+}

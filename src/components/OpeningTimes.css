@@ -1,0 +1,22 @@
+.opening-times-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.opening-times-day {
+  margin-right: 2rem;
+}
+
+.opening-times-time {
+  text-align: right;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 450px) {
+  .opening-times-row {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+  }
+}
