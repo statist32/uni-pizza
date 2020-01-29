@@ -30,4 +30,5 @@ module.exports = {
 
     `gatsby-plugin-offline`,
   ],
+  pathPrefix: "/uni-pizza",
 }
