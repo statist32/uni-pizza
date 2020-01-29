@@ -124,18 +124,16 @@ export default function Impressum() {
           Website ist:
         </p>{" "}
         <p>
-          Ahmad Ahmad
+          Beispielfirma
           <br />
-          Pizzaria Restaurant
+          Musterweg 10
           <br />
-          Stephanusstra&szlig;e 48
-          <br />
-          33098 Paderborn
+          90210 Musterstadt
         </p>
         <p>
-          Telefon: 05251-7778818
+          Telefon: +49 (0) 123 44 55 66
           <br />
-          E-Mail: unipizzapaderborn@gmail.com
+          E-Mail: info@beispielfirma.de
         </p>
         <p>
           Verantwortliche Stelle ist die nat&uuml;rliche oder juristische
@@ -272,15 +270,6 @@ export default function Impressum() {
           wichtigen &ouml;ffentlichen Interesses der Europ&auml;ischen Union
           oder eines Mitgliedstaats verarbeitet werden.
         </p>
-        <h3>Widerspruch gegen Werbe-E-Mails</h3>{" "}
-        <p>
-          Der Nutzung von im Rahmen der Impressumspflicht ver&ouml;ffentlichten
-          Kontaktdaten zur &Uuml;bersendung von nicht ausdr&uuml;cklich
-          angeforderter Werbung und Informationsmaterialien wird hiermit
-          widersprochen. Die Betreiber der Seiten behalten sich
-          ausdr&uuml;cklich rechtliche Schritte im Falle der unverlangten
-          Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.
-        </p>
         <h2>4. Datenerfassung auf dieser Website</h2>
         <h3>Server-Log-Dateien</h3>{" "}
         <p>
@@ -335,7 +324,10 @@ export default function Impressum() {
           unber&uuml;hrt.
         </p>
         <p>
-          Quelle: <a href="https://www.e-recht24.de">e-recht24.de</a>
+          Quelle:{" "}
+          <a href="https://www.e-recht24.de/muster-datenschutzerklaerung.html">
+            https://www.e-recht24.de/muster-datenschutzerklaerung.html
+          </a>
         </p>
       </div>
     </Layout>
