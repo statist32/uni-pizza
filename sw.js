@@ -27,20 +27,24 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-c03f1168aa13d570e26e.js"
+    "url": "webpack-runtime-335020b20eef8f106862.js"
   },
   {
-    "url": "commons-9268061800d02a2dda81.js"
+    "url": "commons-37f0f8336ba6c5c22c0c.js"
   },
   {
-    "url": "app-4bf1398532b6aee5ddab.js"
+    "url": "app-084ba030f946dcec451d.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-5d3e3dbea3f6c92bbad1.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "1eb31029c64a59545944fef491e7d01d"
+    "revision": "268f0243e1d41f4be1b97070ec7e96ad"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "d274adf0f008ef152ce70a312b04b730"
   },
   {
     "url": "manifest.webmanifest",
@@ -132,12 +136,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/uni-pizza`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-4bf1398532b6aee5ddab.js`))) {
+  if (!resources || !(await caches.match(`/uni-pizza/app-084ba030f946dcec451d.js`))) {
     return await fetch(event.request)
   }
 
@@ -150,7 +154,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/uni-pizza/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
