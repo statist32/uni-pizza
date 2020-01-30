@@ -14,6 +14,7 @@ const styles = {
     color: "white",
     // lazy bos styles inner
     margin: "1rem",
+    cursor: "pointer",
   },
 }
 
