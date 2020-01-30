@@ -13,7 +13,8 @@ export default function Impressum() {
         <p>
           Ahmad Ahmad
           <br />
-          Pizzaria Restaurant
+          Uni Pizza <br />
+          Pizzeria Restaurant
           <br />
           Stephanusstra&szlig;e 48
           <br />
