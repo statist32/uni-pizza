@@ -334,6 +334,16 @@ export default function Impressum() {
           &ndash; insbesondere gesetzliche Aufbewahrungsfristen &ndash; bleiben
           unber&uuml;hrt.
         </p>
+        <h3>GitHub Pages</h3>
+        <p>
+          Diese Website wird auf Servern von{" "}
+          <a href="https://www.github.com/">Github Inc.</a>, 88 Colin P Kelly Jr
+          St, San Francisco, CA 94107, USA gehostet. Beachten Sie daher auch die{" "}
+          <a href="https://help.github.com/articles/github-privacy-statement/">
+            GitHub Privacy Policy
+          </a>
+          .
+        </p>
         <p>
           Quelle: <a href="https://www.e-recht24.de">e-recht24.de</a>
         </p>
