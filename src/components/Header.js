@@ -10,12 +10,14 @@ export default function Header() {
   return (
     <header className={`${extended ? "hamburger-active-header" : ""}`}>
       <div>
-        <Link to="/" className="link">
-          <div style={{ height: "50px", width: "50px" }}>
-            <Logo />
-          </div>
-          <div>Uni Pizza</div>
-        </Link>
+        <div>
+          <Link to="/" className="link">
+            <div style={{ height: "50px", width: "50px" }}>
+              <Logo />
+            </div>
+            <div>Uni Pizza</div>
+          </Link>
+        </div>
 
         <nav style={extended ? { display: "block" } : {}}>
           <Link className="link" to="/#hero">
