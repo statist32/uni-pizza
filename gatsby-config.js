@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Uni Pizza`,
-    description: `Willkommen auf der Webseite der Uni Pizza. Hier finden Sie alle Informationen zu uns. Wir wünschen Ihnen einen guten Appetit und bis bald!`,
+    description: `Leckere Pizza, Pasta, Salat und vieles mehr finden Sie bei uns. Wir liefern Ihnen Qualität. Wir wünschen Ihnen einen guten Appetit und bis bald!`,
     author: `@statist32`,
   },
   plugins: [

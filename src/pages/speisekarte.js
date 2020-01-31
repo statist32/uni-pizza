@@ -14,7 +14,7 @@ import Speisekarte8 from "../components/Speisekarte8"
 export default function Speisekarte() {
   return (
     <Layout>
-      <SEO title="Bestellen" />
+      <SEO title="Unsere Speisekarte für Sie" />
       <section className="speisekarten-wrapper">
         <div>
           <h1>Speisekarte</h1>

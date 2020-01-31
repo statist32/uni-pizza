@@ -6,7 +6,7 @@ import "./impressum.css"
 export default function Impressum() {
   return (
     <Layout>
-      <SEO title="Impressum" />
+      <SEO title="Unser Impressum" />
       <div className="impressum-wrapper">
         <h1>Impressum</h1>
         <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>

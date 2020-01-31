@@ -12,7 +12,7 @@ import "./Index.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Hier finden Sie leckeres Essen" />
     <Hero />
     <div className="button-wrapper">
       <a href="tel:05251-7778818">

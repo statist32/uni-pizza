@@ -6,7 +6,7 @@ import "./datenschutz.css"
 export default function Impressum() {
   return (
     <Layout>
-      <SEO title="Impressum" />
+      <SEO title="Unsere Datenschutzerklärung" />
       <div className="datenschutz-wrapper">
         <h1>Datenschutzerkl&auml;rung</h1>
         <h2>1. Datenschutz auf einen Blick</h2>
