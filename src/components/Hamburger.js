@@ -6,6 +6,7 @@ export default function Hamburger({ extended, setExtended }) {
       className="hamburger"
       role="button"
       tabIndex={0}
+      aria-label="clickable hamburger menu"
       onClick={() => setExtended(!extended)}
       onKeyDown={() => setExtended(!extended)}
     >

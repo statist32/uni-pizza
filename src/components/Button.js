@@ -18,13 +18,13 @@ const styles = {
   },
 }
 
-export default function Button({ preText, text }) {
+export default function Button({ preText, text, link }) {
   return (
-    <div>
+    <a href={link}>
       <button style={styles.button}>
-        <span style={{ fontSize: "1rem", display: "block" }}>{preText}</span>
+        <span style={{ fontSize: "1.1rem", display: "block" }}>{preText}</span>
         {text}
       </button>
-    </div>
+    </a>
   )
 }

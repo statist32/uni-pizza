@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  text-shadow: 5px 5px 4px black;
+  text-shadow: 8px 8px 10px black;
   /* text-shadow: -1px 2px 1px hsl(0, 0%, 52%); */
   color: whitesmoke;
 }
