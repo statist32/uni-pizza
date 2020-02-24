@@ -23,9 +23,9 @@ export default function Header() {
           <Link className="link" to="/#hero">
             Home
           </Link>
-          <Link className="link" to="/speisekarte">
+          <a className="link" href="https://www.lieferando.de/uni-pizza">
             Speisekarte
-          </Link>
+          </a>
           <Link className="link" to="/#footer">
             Kontakt
           </Link>

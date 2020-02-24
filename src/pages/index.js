@@ -18,7 +18,7 @@ const IndexPage = () => (
       <Button
         preText={"Hier klicken zum"}
         text={"Bestellen"}
-        link="tel:05251-7778818"
+        link="https://www.lieferando.de/uni-pizza"
       />
 
       <Button
